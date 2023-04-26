@@ -67,7 +67,7 @@
         <div class="container h-100 minHeight">
             <div class="row h-100">
                 <!--Left Column-->
-                <div class="col-7 h-100">
+                <div class="col-6 h-100">
                     <div class="bg-primary text-light p-3">
                         <h1 class="text-center mb-3">Contact Us</h1>
                         <form action="#">
@@ -115,19 +115,36 @@
                     </div>
                 </div>
                 <!--right Columns-->
-                <div class="col-5 h-100 d-flex flex-column justify-content-evenly overflow-auto">
+                <div class="col-6 h-100 d-flex flex-column justify-content-evenly overflow-auto">
                     <div class="bg-secondary text-light p-3">
-                        <div class="row text-center p-3">
+                        <div class="row text-center p-3 mb-3">
                             <h1>Contact Us</h1>
-                            <div class="col">
-                                <label for="inputEmail4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
+                            <div class="col-6">
+                                <label for="name" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name">
                             </div>
-                            <div class="col">
-                                
+                            <div class="col-6">
+                                <label for="name" class="form-label">1st Name</label>
+                                <input type="text" class="form-control" placeholder="1st Name" aria-label="1st Name">
+                            </div>
+                            <div class="col-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="col-6">
+                                <label for="inputphone" class="form-label">Phone (optional)</label>
+                                <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <input type="text" class="form-control" id="message" placeholder="Message">
                             </div>
                         </div>
-                        <button class="btn btn-light" type="button">Send Message</button>
+                        <button class="btn btn-primary mt-1" type="button">Send Message</button>
                     </div>
                     <div class="bg-dark text-light p-3 mt-2">
                         <h4>Feedback</h4>
@@ -135,6 +152,9 @@
                             What you'd need to prioritize.
                             Your feedback helps us to deliver you better content.
                         </p>
+                        <div class="col-6 p-2">
+                            <input type="text" class="form-control" placeholder="Feedback">
+                        </div>
                         <button class="btn btn-light" type="button">Send Feedback</button>
                     </div>
                 </div>
